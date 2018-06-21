@@ -9,7 +9,7 @@ public class MainStart {
 	public static void main(String[] args) {
 
 		Calculator cal1 = new ImpCalculator();
-		long f1 = cal1.factorial(100);
+		long f1 = cal1.factorial(4);
 		System.out.println("Imp 100 : " + f1);
 		
 		Calculator cal2 = new RecCalculator();
